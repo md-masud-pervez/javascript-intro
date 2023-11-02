@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <link rel="shortcut icon" href="pngwing.com.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Basic JS Structure  -->
+  <div class="section">
+    <h3>1. Basic JS Structure:</h3>
+    <div>
+        <xmp><script>
+        var hello = "Hello World..."
+            document.write (hello)
+</script></xmp>
+    </div>
+    <h4>Output =</h4>
+    <div class="output">
+        <script>
+            var hello = "Hello World..."
+            document.write (hello)
+        </script>
+    </div>
+  </div>
+
+<!-- Multiplication Table  -->
+    <div class="section">
+        <h3>2. Multiplication Table:</h3>
+        <div>
+        <xmp>
+<script>
+    var number1 = 1;
+    var number2 = 5;
+                
+    for(number1 =1; number1 <= 10; number1++){
+    var result = number1 * number2;
+    document.write(number2 + " x " + number1 + " = " + result +"<br>")
+                }
+</script>
+        </xmp>
+        </div>
+        <h4>Output =</h4>
+        <div class="output">
+            <script>
+                var number1 = 1;
+                var number2 = 5;
+                
+                for(number1 =1; number1 <= 10; number1++){
+                    var result = number1 * number2;
+                    document.write(number2 + " x " + number1 + " = " + result +"<br>")
+                }
+            </script>
+        </div>
+      </div>
+
+
+<!-- JS Array  -->
+        <div class="section">
+            <h3>3. JS Array:</h3>
+            <div>
+            <xmp>
+<script>
+    var data = ["Mr. Peter","peter@gmail.com","USA" ];
+    document.write(data);
+</script>
+            </xmp>
+            </div>
+            <h4>Output =</h4>
+            <div class="output">
+                <script>
+                    var data = ["Mr. Peter","peter@gmail.com","USA" ];
+                    document.write(data);
+                </script>
+            </div>
+          </div>
+
+
+<!-- Assignment Operators  -->
+          <div class="section">
+            <h3>4.(i) Assignment Operators:</h3>
+            <div>
+            <xmp>
+<script>
+    var a = 50;
+    var b = 25;
+    var c = a + b;
+    document.write(c);
+</script>
+            </xmp>
+            </div>
+            <h4>Output =</h4>
+            <div class="output">
+                <script>
+                    var a = 50;
+                    var b = 25;
+                    var c = a + b;
+                    document.write(c);
+                </script>
+            </div>
+          </div>
+
+
+          <div class="section">
+            <h3>4.(ii) Assignment Operators:</h3>
+            <div>
+            <xmp>
+<script>
+    var a = 100;
+    a += 13;
+    document.write(a);
+</script>
+            </xmp>
+            </div>
+            <h4>Output =</h4>
+            <div class="output">
+                <script>
+                    var a = 100;
+                    a += 13;
+                    document.write(a);
+                </script>
+            </div>
+          </div>
+
+
+          <div class="section">
+            <h3>4.(iii) Assignment Operators:</h3>
+            <div>
+            <xmp>
+<script>
+    var a = 100;
+    a /= 13;
+    document.write(a);
+</script>
+            </xmp>
+            </div>
+            <h4>Output =</h4>
+            <div class="output">
+                <script>
+                    var a = 100;
+                    a /= 13;
+                    document.write(a);
+                </script>
+            </div>
+          </div>
+
+
+
+<!-- If - Else -->
+<div class="section">
+    <h3>5.(i) If - Else:</h3>
+    <div>
+    <xmp>
+<script>
+    var marks = 94;
+
+    if(marks <= 100 && marks >=90){
+    document.write("You have got 'Golden A+'");
+    }
+    else if(marks <= 89 && marks >=80){
+    document.write("You have got 'A+'");
+    }
+    else if(marks <= 79 && marks >=70){
+    document.write("You have got 'A'");
+    }
+    else if(marks <= 69 && marks >=60){
+    document.write("You have got 'A-'");
+    }
+    else if(marks <= 59 && marks >=50){
+    document.write("You have got 'B'");
+    }
+    else if(marks <= 49 && marks >=40){
+    document.write("You have got 'C'");
+    }
+    else if(marks <= 39 && marks >=33){
+    document.write("You have got 'D'");
+    }
+    else if(marks <= 32){
+    document.write("You have got 'F'");
+    }
+    else{
+    document.write("Invalid Number");
+    }
+</script>
+    </xmp>
+    </div>
+    <h4>Output =</h4>
+    <div class="output">
+        <script>
+            var marks = 94;
+            if(marks <= 100 && marks >=90){
+                document.write("You have got 'Golden A+'");
+            }
+            else if(marks <= 89 && marks >=80){
+                document.write("You have got 'A+'");
+            }
+            else if(marks <= 79 && marks >=70){
+                document.write("You have got 'A'");
+            }
+            else if(marks <= 69 && marks >=60){
+                document.write("You have got 'A-'");
+            }
+            else if(marks <= 59 && marks >=50){
+                document.write("You have got 'B'");
+            }
+            else if(marks <= 49 && marks >=40){
+                document.write("You have got 'C'");
+            }
+            else if(marks <= 39 && marks >=33){
+                document.write("You have got 'D'");
+            }
+            else if(marks <= 32){
+                document.write("You have got 'F'");
+            }
+            else{
+                document.write("Invalid Number");
+            }
+        </script>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <h3>5.(ii) If - Else:</h3>
+    <div>
+    <xmp>
+<script>
+    var marks = 54;
+
+    if(marks <= 100 && marks >=90){
+    document.write("You have got 'Golden A+'");
+    }
+    else if(marks <= 89 && marks >=80){
+    document.write("You have got 'A+'");
+    }
+    else if(marks <= 79 && marks >=70){
+    document.write("You have got 'A'");
+    }
+    else if(marks <= 69 && marks >=60){
+    document.write("You have got 'A-'");
+    }
+    else if(marks <= 59 && marks >=50){
+    document.write("You have got 'B'");
+    }
+    else if(marks <= 49 && marks >=40){
+    document.write("You have got 'C'");
+    }
+    else if(marks <= 39 && marks >=33){
+    document.write("You have got 'D'");
+    }
+    else if(marks <= 32){
+    document.write("You have got 'F'");
+    }
+    else{
+    document.write("Invalid Number");
+    }
+</script>
+    </xmp>
+    </div>
+    <h4>Output =</h4>
+    <div class="output">
+        <script>
+            var marks = 54;
+            if(marks <= 100 && marks >=90){
+                document.write("You have got 'Golden A+'");
+            }
+            else if(marks <= 89 && marks >=80){
+                document.write("You have got 'A+'");
+            }
+            else if(marks <= 79 && marks >=70){
+                document.write("You have got 'A'");
+            }
+            else if(marks <= 69 && marks >=60){
+                document.write("You have got 'A-'");
+            }
+            else if(marks <= 59 && marks >=50){
+                document.write("You have got 'B'");
+            }
+            else if(marks <= 49 && marks >=40){
+                document.write("You have got 'C'");
+            }
+            else if(marks <= 39 && marks >=33){
+                document.write("You have got 'D'");
+            }
+            else if(marks <= 32){
+                document.write("You have got 'F'");
+            }
+            else{
+                document.write("Invalid Number");
+            }
+        </script>
+    </div>
+  </div>
+  
+
+
+  <div class="section">
+    <h3>5.(iii) If - Else:</h3>
+    <div>
+    <xmp>
+<script>
+    var marks = 24;
+
+    if(marks <= 100 && marks >=90){
+    document.write("You have got 'Golden A+'");
+    }
+    else if(marks <= 89 && marks >=80){
+    document.write("You have got 'A+'");
+    }
+    else if(marks <= 79 && marks >=70){
+    document.write("You have got 'A'");
+    }
+    else if(marks <= 69 && marks >=60){
+    document.write("You have got 'A-'");
+    }
+    else if(marks <= 59 && marks >=50){
+    document.write("You have got 'B'");
+    }
+    else if(marks <= 49 && marks >=40){
+    document.write("You have got 'C'");
+    }
+    else if(marks <= 39 && marks >=33){
+    document.write("You have got 'D'");
+    }
+    else if(marks <= 32){
+    document.write("You have got 'F'");
+    }
+    else{
+    document.write("Invalid Number");
+    }
+</script>
+    </xmp>
+    </div>
+    <h4>Output =</h4>
+    <div class="output">
+        <script>
+            var marks = 24;
+            if(marks <= 100 && marks >=90){
+                document.write("You have got 'Golden A+'");
+            }
+            else if(marks <= 89 && marks >=80){
+                document.write("You have got 'A+'");
+            }
+            else if(marks <= 79 && marks >=70){
+                document.write("You have got 'A'");
+            }
+            else if(marks <= 69 && marks >=60){
+                document.write("You have got 'A-'");
+            }
+            else if(marks <= 59 && marks >=50){
+                document.write("You have got 'B'");
+            }
+            else if(marks <= 49 && marks >=40){
+                document.write("You have got 'C'");
+            }
+            else if(marks <= 39 && marks >=33){
+                document.write("You have got 'D'");
+            }
+            else if(marks <= 32){
+                document.write("You have got 'F'");
+            }
+            else{
+                document.write("Invalid Number");
+            }
+        </script>
+    </div>
+  </div>  
+
+
+
+  <div class="section">
+    <h3>5.(iv) If - Else:</h3>
+    <div>
+    <xmp>
+<script>
+    var marks = 104;
+
+    if(marks <= 100 && marks >=90){
+    document.write("You have got 'Golden A+'");
+    }
+    else if(marks <= 89 && marks >=80){
+    document.write("You have got 'A+'");
+    }
+    else if(marks <= 79 && marks >=70){
+    document.write("You have got 'A'");
+    }
+    else if(marks <= 69 && marks >=60){
+    document.write("You have got 'A-'");
+    }
+    else if(marks <= 59 && marks >=50){
+    document.write("You have got 'B'");
+    }
+    else if(marks <= 49 && marks >=40){
+    document.write("You have got 'C'");
+    }
+    else if(marks <= 39 && marks >=33){
+    document.write("You have got 'D'");
+    }
+    else if(marks <= 32){
+    document.write("You have got 'F'");
+    }
+    else{
+    document.write("Invalid Number");
+    }
+</script>
+    </xmp>
+    </div>
+    <h4>Output =</h4>
+    <div class="output">
+        <script>
+            var marks = 1044;
+            if(marks <= 100 && marks >=90){
+                document.write("You have got 'Golden A+'");
+            }
+            else if(marks <= 89 && marks >=80){
+                document.write("You have got 'A+'");
+            }
+            else if(marks <= 79 && marks >=70){
+                document.write("You have got 'A'");
+            }
+            else if(marks <= 69 && marks >=60){
+                document.write("You have got 'A-'");
+            }
+            else if(marks <= 59 && marks >=50){
+                document.write("You have got 'B'");
+            }
+            else if(marks <= 49 && marks >=40){
+                document.write("You have got 'C'");
+            }
+            else if(marks <= 39 && marks >=33){
+                document.write("You have got 'D'");
+            }
+            else if(marks <= 32){
+                document.write("You have got 'F'");
+            }
+            else{
+                document.write("Invalid Number");
+            }
+        </script>
+    </div>
+  </div>
+  
+  
+  
+</body>
+</html>
